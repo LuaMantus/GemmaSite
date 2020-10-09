@@ -75,3 +75,22 @@ div.uk-width-1-3 {
     font-size: 0.75em;
 }
 
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  button:hover {
+      color: red;
+  }
+
+  .headshot {
+      position: absolute;
+      top: 0px;
+      height: 10vh;
+      width: 10vw;
+      border: 10px solid black;
+  }
+

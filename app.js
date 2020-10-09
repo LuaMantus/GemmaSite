@@ -12,6 +12,18 @@ app.get("/", function(req, res){
     res.render("index");
 });
 
+app.get("/services", function(req, res){
+    res.render("services");
+});
+
+app.get("/about", function(req, res){
+    res.render("about");
+});
+
+app.get("/testimonials", function(req, res){
+    res.render("testimonials");
+});
+
 app.listen(3000, () => {
     console.log(`App listening!`)
   })
